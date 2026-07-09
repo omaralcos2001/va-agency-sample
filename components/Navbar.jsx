@@ -24,7 +24,7 @@ export default function Navbar() {
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-600 to-accent-500 text-white">
             <Sparkles size={18} />
           </span>
-          VA Agency <span className="text-brand-600">Sample</span>
+          CANDACE <span className="text-brand-600">Agency</span>
         </Link>
 
         <div className="hidden items-center gap-6 lg:flex">

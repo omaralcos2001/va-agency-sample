@@ -1,4 +1,4 @@
-# VA Agency Sample
+# CANDACE Agency
 
 A modern, fully responsive virtual assistant agency demo website. Static demo only — no backend, database, auth, or API calls.
 

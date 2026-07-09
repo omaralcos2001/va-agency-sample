@@ -3,7 +3,7 @@ import { AlertCircle, Lightbulb, TrendingUp, ArrowRight } from "lucide-react";
 import { caseStudies } from "@/lib/data";
 
 export const metadata = {
-  title: "Success Stories — VA Agency Sample",
+  title: "Success Stories — CANDACE Agency",
   description: "Real results from businesses that scaled with our virtual assistants.",
 };
 

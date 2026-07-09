@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Mail, Phone, Clock, MapPin, Send, CheckCircle2 } from "lucide-react";
 
 const info = [
-  { icon: Mail, label: "Email", value: "hello@vaagencysample.com" },
+  { icon: Mail, label: "Email", value: "hello@candaceagency.com" },
   { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
   { icon: Clock, label: "Office Hours", value: "Mon–Fri, 9:00 AM – 6:00 PM EST" },
   { icon: MapPin, label: "Address", value: "123 Business Avenue, Suite 400, New York, NY 10001" },

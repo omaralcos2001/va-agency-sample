@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2, ListChecks, Building2 } from "lucide-react";
 import { services } from "@/lib/data";
 
 export const metadata = {
-  title: "Services — VA Agency Sample",
+  title: "Services — CANDACE Agency",
   description: "15 virtual assistant services, from executive assistance to ecommerce support.",
 };
 

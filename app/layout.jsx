@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "VA Agency Sample — Find Reliable Virtual Assistants",
+  title: "CANDACE Agency — Find Reliable Virtual Assistants",
   description:
     "Helping businesses scale with skilled virtual professionals while creating meaningful remote career opportunities.",
 };

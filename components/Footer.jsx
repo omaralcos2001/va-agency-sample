@@ -45,7 +45,7 @@ export default function Footer() {
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-600 to-accent-500 text-white">
               <Sparkles size={18} />
             </span>
-            VA Agency <span className="text-brand-600">Sample</span>
+            CANDACE <span className="text-brand-600">Agency</span>
           </Link>
           <p className="mt-4 max-w-xs text-sm text-slate-500">
             Helping businesses scale with skilled virtual professionals while creating meaningful remote career opportunities.
@@ -70,7 +70,7 @@ export default function Footer() {
 
       <div className="border-t border-slate-200">
         <div className="container-x flex flex-col items-center justify-between gap-4 py-6 sm:flex-row">
-          <p className="text-sm text-slate-500">© 2026 VA Agency Sample. All rights reserved.</p>
+          <p className="text-sm text-slate-500">© 2026 CANDACE Agency. All rights reserved.</p>
           <div className="flex gap-3">
             {socials.map((s) => (
               <span

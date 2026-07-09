@@ -3,8 +3,8 @@ import { Target, Eye, BookOpen, ArrowRight } from "lucide-react";
 import { team, values } from "@/lib/data";
 
 export const metadata = {
-  title: "About — VA Agency Sample",
-  description: "Our mission, vision, story, values, and the team behind VA Agency Sample.",
+  title: "About — CANDACE Agency",
+  description: "Our mission, vision, story, values, and the team behind CANDACE Agency.",
 };
 
 const gradients = [
@@ -56,7 +56,7 @@ export default function AboutPage() {
             <h2 className="section-title">Started small. Built to scale.</h2>
             <div className="mt-5 space-y-4 text-slate-600">
               <p>
-                VA Agency Sample began when our founder, a small business owner, spent months searching for dependable remote help — and realized how hard it was to find pre-vetted, well-matched talent.
+                CANDACE Agency began when our founder, a small business owner, spent months searching for dependable remote help — and realized how hard it was to find pre-vetted, well-matched talent.
               </p>
               <p>
                 What started as an informal network of trusted assistants grew into a full agency with structured screening, training, and client success support. Today we've placed over 1,200 virtual assistants with more than 500 businesses across ten industries.
