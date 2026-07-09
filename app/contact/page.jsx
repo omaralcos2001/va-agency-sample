@@ -1,7 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Mail, Phone, Clock, MapPin, Send, CheckCircle2 } from "lucide-react";
+
+const team = [
+  { src: "/images/team-1.jpg", name: "Marco Villanueva", role: "Client Success Coordinator" },
+  { src: "/images/team-2.jpg", name: "Paolo Reyes", role: "Talent Placement Lead" },
+];
 
 const info = [
   { icon: Mail, label: "Email", value: "hello@candaceagency.com" },
@@ -91,6 +97,33 @@ export default function ContactPage() {
             <MapPin size={32} />
             <p className="mt-2 text-sm font-medium">Google Maps placeholder</p>
           </div>
+        </div>
+      </section>
+
+      {/* Team */}
+      <section className="container-x pb-20">
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="section-eyebrow">Our Team</span>
+          <h2 className="section-title">The people you'll be talking to</h2>
+        </div>
+        <div className="mx-auto mt-10 grid max-w-2xl gap-6 sm:grid-cols-2">
+          {team.map((m) => (
+            <figure key={m.name} className="card overflow-hidden !p-0">
+              <div className="relative h-96 w-full">
+                <Image
+                  src={m.src}
+                  alt={m.name}
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 640px) 100vw, 320px"
+                />
+              </div>
+              <figcaption className="p-5 text-center">
+                <p className="font-semibold text-slate-900">{m.name}</p>
+                <p className="text-sm text-slate-500">{m.role}</p>
+              </figcaption>
+            </figure>
+          ))}
         </div>
       </section>
     </>
